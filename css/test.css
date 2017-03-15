@@ -1,0 +1,152 @@
+
+.content .middle{
+	height: 852px;
+}
+.content{
+	height: 1020px;
+}
+.content .middle .middle_right{
+	position: absolute;
+	top: 120px;
+	right: 20px;
+}
+.content .middle .middle_list22{
+	width: 774px;
+	height: 183px;
+	position: absolute;
+	top: 150px;
+	left: 40px;
+	border-bottom: 1px dashed #eee;
+
+}
+.content .middle .middle_list22 p:first-child{
+	font-size: 14px;
+	font-weight: bolder;
+	margin-left: 50px;
+	margin-top: 10px;
+
+}
+.content .middle .middle_list22 p label{
+	
+	font-size: 14px;
+	font-weight: bolder;
+	margin-left: 20px;
+	
+}
+.content .middle .middle_list22 p input{
+	margin-top: 34px;
+	margin-left: 13px;
+	width: 162px;
+	height: 33px;
+	border: 1px solid #ccc;
+	line-height: 33px;
+	color:#a9a9a9;
+	font-size: 14px;
+
+}
+.content .middle .middle_list22 p input:focus{
+	border: 1px solid #7ec08a;
+}
+.content .middle .middle_list22  button{
+	width: 162px;
+	height: 33px;
+	background: #ff9000;
+	color:#fff;
+	font-size: 15px;
+	margin-left: 74px;
+	margin-top: 24px;
+	cursor: pointer;
+}
+.content .middle .middle_list23{
+	width: 64px;
+	height: 32px;
+	position: absolute;
+	top: 220px;
+	left: 288px;
+
+}
+.content .middle .middle_list24{
+	width: 193px;
+	height: 25px;
+	background: #fff6cf;
+	color: #ff9342;
+	border: 1px solid #ff9342;
+	
+	position: absolute;
+	top: 212px;
+	left: 338px;
+
+	display: none;
+
+}
+.content .middle .middle_list24 img{
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin: 7px 0 0 5px;
+}
+.content .middle .middle_list24 p{
+	float: left;
+	margin: 7px 0 0 5px;
+}
+.content .middle .alert{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 218px;
+	left: 258px;
+	display: none;
+}
+
+
+.content .middle .middle_list33{
+	width: 240px;
+	height: 108px;
+	position: absolute;
+	top: 340px;
+	left: 110px;
+}
+.content .middle .middle_list33 p{
+	margin-top: 30px;
+	font-size: 13px;
+	color: #333;
+}
+.content .middle .middle_list33 button{
+	width: 130px;
+	height: 34px;
+	background: #efefef;
+	font-size: 13px;
+	text-align: center;
+	line-height: 13px;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+}
+.content .middle .middle_down2{
+	width: 962px;
+	height: 288px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	background: #f2f2f2;
+}
+.content .middle .middle_down2 p{
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 30px;
+	margin-left: 23px;
+}
+.content .middle .middle_down2 p:first-child{
+	margin-top: 20px;
+}
+.content .middle .middle_list22 p span{
+	color: red;
+}
+
+.content .middle .middle_list22 input.bod1{
+	border:1px solid #ff9342;
+}
+
+
+
+
+

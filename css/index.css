@@ -1,0 +1,328 @@
+.header{
+	width:1003px;
+	height:98px;
+	margin:0 auto;
+	
+	
+}
+.header img:first-child{
+	width:166px;
+	height:70px;
+	margin-top:10px;
+	margin-left:10px;
+}
+.header img:last-child{
+	width:204px;
+	height:46px;
+	margin-top:8px;
+	margin-left:20px;
+}
+.content{
+	width: 100%;
+	max-width: 1920px;
+	height: 720px;
+	background: #fbfbfb;
+	border-bottom: 1px solid #ddd;
+	border-top:1px solid #48a75b;
+	margin: 0 auto;
+	
+	overflow: hidden;
+	
+
+}
+.content .top{
+	width:1003px;
+	height: 70px;
+	margin: 0 auto;
+	
+	
+}
+.content .top img{
+	width: 16px;
+	height: 16px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.content .top span:first-child{
+	font-weight: bolder;
+	color: #333;
+}
+.content .top span:last-child{
+	font-size: 12px;
+	float:right;
+	margin-top: 20px;
+}
+.content .top span a{
+	color: #45b2ed;
+}
+
+.content .middle{
+	width: 1003px;
+	height: 556px;
+	margin: -10px auto;
+	border: 1px solid #ccc;
+/* 	box-shadow: 1px 3px 3px; */
+	overflow: hidden;
+	position: relative;
+	
+}
+.middle_list1{
+	width: 1003px;
+	height: 80px;
+	position: absolute;
+	overflow: hidden;
+	background: url("../images/back1.jpg");
+}
+
+.middle_list1 img{
+	float: left;
+
+}
+
+
+.middle_list1 span:first-child{
+	width: 93px;
+	height: 22px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.middle_list1 span:nth-child(2){
+	width: 150px;
+	height: 22px;
+	position: absolute;
+	top: 10px;
+	left: 425px;
+}
+.middle_list1 span:nth-child(3){
+	width: 65px;
+	height: 22px;
+	position: absolute;
+	top: 10px;
+	right: 58px;
+}
+.middle_list1 .regis1{
+	width: 217px;
+	height: 34px;
+	margin-left: 40px;
+	
+}
+.middle_list1 .regis3{
+	width: 243px;
+	height: 34px;
+	
+}
+.middle_list1 .regis4{
+	width: 425px;
+	height: 34px;
+	
+	
+}
+/* form */
+.content .middle .middle_list2{
+	width: 585px;
+	height: 384px;
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	
+}
+
+.content .middle .middle_list2 form p img{
+	margin-left: 5px;
+	margin-bottom: 18px;
+	display: none;
+}
+.content .middle .middle_list2 form p input{
+	width: 242px;
+	height: 33px;
+	border: 1px solid #ccc;
+	line-height: 33px;
+	color:#a9a9a9;
+	font-size: 14px;
+	margin-left: 12px;
+}
+.content .middle .middle_list2 #picture{
+	width: 128px;
+}
+.content .middle .middle_list2 form p{
+	margin-left: 52px;
+	line-height: 50px;
+}
+.content .middle .middle_list2 form p:nth-child(5){
+	margin-left: 38px;
+}
+.content .middle .middle_list2 form p:nth-child(5) img:nth-child(3){
+	width: 70px;
+	height: 32px;
+	margin-left: 36px;
+	margin-bottom: 12px;
+	display: inline-block;
+}
+
+.content .middle .middle_list2 form p input:focus{
+	border: 1px solid #7ec08a;
+}
+.content .middle .middle_list2 form p label{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.content .middle .middle_list2 form input[type=checkbox]{
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.content .middle .middle_list2 form button{
+	width: 130px;
+	height: 33px;
+	background: #ff9000;
+	color:#fff;
+	font-size: 15px;
+	margin-left: 120px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+/* 隐藏部分 */
+.content .middle .middle_list2 .middle_hid{
+	width: 200px;
+	height: 256px;
+	position: absolute;
+	top: -10px;
+	right: 10px;
+}
+.content .middle .middle_list2 .error{
+	width: 193px;
+	height: 25px;
+	background: #fff6cf;
+	color: #ff9342;
+	border: 1px solid #ff9342;
+	margin-top: 22px;
+	position: absolute;
+	display: none;
+}
+.content .middle .middle_list2 .error img{
+	float: left;
+	margin: 7px 0 0 5px;
+}
+.content .middle .middle_list2 .error p{
+	float: left;
+	margin: 7px 0 0 5px;
+}
+
+
+.content .middle .middle_list2 #pwdError{
+	top: 50px;
+}
+.content .middle .middle_list2 #repwdError{
+	top: 100px;
+}
+.content .middle .middle_list2 #emailError{
+	top: 150px;
+}
+.content .middle .middle_list2 #pictureError{
+	top: 200px;
+}
+.content .middle .middle_list2 #ale1{
+	top: 26px;
+}
+.content .middle .middle_list2 #ale2{
+	top: 78px;
+}
+.content .middle .middle_list2 #ale3{
+	top: 128px;
+}
+.content .middle .middle_list2 #ale4{
+	top: 178px;
+}
+.content .middle .middle_list2 #ale5{
+	top: 230px;
+	left: -140px;
+}
+
+.content .middle .middle_list2 .ale{
+	position: absolute;
+	left: -28px;
+	top: 22px;
+	display: none;
+}
+.middle_right{
+	width: 200px;
+	height: 396px;
+	border: 1px solid #eee;
+	position: absolute;
+	bottom:22px;
+	right: 20px;
+
+}
+.middle_right img:first-child{
+	width: 153px;
+	height: 150px;
+	margin-top:25px;
+	margin-left: 26px;
+}
+.middle_right img:nth-child(2){
+	width: 88px;
+	height: 17px;
+	margin-top:22px;
+	margin-left:60px;
+}
+.middle_right img:last-child{
+	width: 198px;
+	height: 153px;
+	margin-top: 22px;
+
+	
+}
+
+.content .down ul{
+	width: 600px;
+	height: 48px;
+	margin: 80px auto;
+	position: relative;
+	overflow: hidden;
+}
+.content .down ul li{
+
+	width: 80px;
+	height: 20px;
+	border-right: 1px solid #ddd;
+	float: left;
+	text-align: center;
+	line-height: 16px;
+	margin-left: 30px;
+
+}
+.content .down ul li:last-child{
+	border-right: 1px solid #fff;
+}
+.footer{
+	width:100%;
+	max-width:1920px;
+	height:120px;
+	margin:0 auto;
+
+
+}
+.footer .footer1{
+	width:430px;
+	height: 24px;
+	margin: 40px auto auto;
+	
+}
+.footer .footer1 p{
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+
+}
+
+.middle_list2 form p input.bod{
+	border:1px solid #ff9342;
+}
+
+.content .middle_list2 form button.backg{
+	background: #ccc;
+}
+.content .middle_list2 form button.backg1{
+	background: #ff9000;
+}

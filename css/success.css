@@ -1,0 +1,219 @@
+.content{
+	height: 873px;
+}
+.content .middle{
+	height: 700px;
+}
+.content .middle .middle_second{
+	width: 246px;
+	height: 97px;
+	position: absolute;
+	top: 170px;
+	left: 308px;
+	
+}
+.content .middle .middle_second img{
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+.content .middle .middle_second p{
+	margin-top: 10px;
+	margin-left: 60px;
+	font-weight: bold;
+}
+.content .middle .middle_third{
+	width: 130px;
+	height: 33px;
+	position: absolute;
+	top: 190px;
+	right: 340px;
+}
+.content .middle .middle_third button{
+	width: 130px;
+	height: 33px;
+	background: #ff9000;
+	color:#fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.content .middle .middle_last{
+	width: 200px;
+	height: 220px;
+	border: 1px solid #eee;
+	position: absolute;
+	bottom: 177px;
+	left: 394px;
+}
+.content .middle .middle_last img:first-child{
+	width:153px;
+	height: 150px;
+	margin-top: 25px;
+	margin-left: 22px;
+}
+.content .middle .middle_last img:last-child{
+	width:119px;
+	height: 17px;
+	margin-top: 14px;
+	margin-left: 40px;
+
+}
+
+
+/*  跳出的登录窗口 */
+.aler{
+	width: 358px;
+	height: 380px;
+	border-radius: 10px;
+	border: 1px solid #cdfdd6;
+}
+.aler ul{
+	width: 358px;
+	height: 55px;
+}
+.aler ul li{
+	width: 179px;
+	height: 55px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #999;
+	line-height: 55px;
+	border-bottom: 1px solid #49a75b;
+	cursor: pointer;
+}
+.aler .login{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	display: none;
+}
+.aler .login form p{
+	margin-top: 30px;
+}
+.aler .login form p #phone{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .login form p #pwd{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .login form p:nth-child(3){
+	margin-top: 10px;
+}
+.aler .login form p input[id=box]{
+	float: left;
+}
+.aler .login form p span{
+	float: left;
+	margin-left: 5px;
+}
+
+.aler .login form p a{
+	float: right;
+}
+.aler .login form p button{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.aler .login form .error{
+	color: red;
+	display: none;
+}
+.aler .codelogin{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	display: none;
+}
+.aler .codelogin form p:not(#last){
+	margin-top: 25px;
+}
+.aler .codelogin p:first-child input{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .codelogin p:nth-child(2) input{
+	width: 124px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .codelogin p:nth-child(3) input{
+	width: 124px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .codelogin p:nth-child(3) button{
+	width: 100px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 5px;
+}
+.aler .codelogin form p:nth-child(4) button{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.aler .codelogin form p a{
+	color: #38a5e8;
+}
+.aler .down{
+	width: 339px;
+	height: 52px;
+	background: #f7fbf5;
+	margin: 0 auto;
+	line-height: 52px;
+	margin-top: 30px;
+}
+.aler .down p{
+	color: #000;
+}
+.back{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+}
+.aler{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -179px;
+	margin-top: -190px;
+	z-index: 200;
+	background: #fff;
+	display: none;
+}
+.aler ul li.over{
+	color: #49a75b;
+	border-bottom: 4px solid #49a75b;
+}
+
+.content .middle .middle_second p span{
+	color: red;
+}
