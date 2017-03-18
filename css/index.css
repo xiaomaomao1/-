@@ -68,7 +68,7 @@
 }
 .middle_list1{
 	width: 1003px;
-	height: 80px;
+	height: 100px;
 	position: absolute;
 	overflow: hidden;
 	background: url("../images/back1.jpg");
@@ -206,7 +206,7 @@
 }
 .content .middle .middle_list2 .error p{
 	float: left;
-	margin: 7px 0 0 5px;
+	margin: 3px 0 0 5px;
 }
 
 
@@ -275,7 +275,7 @@
 }
 
 .content .down ul{
-	width: 600px;
+	width: 700px;
 	height: 48px;
 	margin: 80px auto;
 	position: relative;
@@ -283,7 +283,7 @@
 }
 .content .down ul li{
 
-	width: 80px;
+	width: 100px;
 	height: 20px;
 	border-right: 1px solid #ddd;
 	float: left;
